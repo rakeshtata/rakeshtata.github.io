@@ -221,7 +221,7 @@ p {
   padding: 0;
 }
 #fh5co-home .fh5co-copy-inner h1 {
-  color: #fff;
+  color: #464C4C;
   font-size: 55px;
   margin-bottom: 20px;
   line-height: 1.2;
@@ -229,9 +229,8 @@ p {
 }
 #fh5co-home .fh5co-copy-inner h2 {
   font-size: 20px;
-  color: #fff;
+  color: #464C4C;
   line-height: 1.2;
-  color: rgba(255, 255, 255, 0.7);
 }
 #fh5co-home .fh5co-copy-inner a {
   color: #fff;
@@ -260,7 +259,6 @@ p {
 .fh5co-main-nav .fh5co-menu-1 a {
   padding: 35px 0;
   margin-right: 30px;
-  color: #ccc;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 13px;
@@ -398,6 +396,7 @@ p {
 
 .fh5co-grid {
   padding-left: 2em;
+  margin-top: 150px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-grid {
@@ -407,6 +406,7 @@ p {
 .fh5co-grid .fh5co-grid-item {
   width: 50%;
   float: left;
+  height: 250px !important;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1178,5 +1178,45 @@ p {
   z-index: 9999;
   background: url(../images/Preloader_2.gif) center no-repeat #fff;
 }
+
+.backgroundImageCVR{
+	position:relative;
+	padding:15px;
+}
+.background-image{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background:url('../images/title.jpg');
+	background-size:cover;
+	z-index:1;
+	-webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+}
+.content{
+  position: relative;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.logo-main{
+  width:100px;
+  height:100px;
+  margin-top:80%;
+  margin-left: 40%;
+}
+
+.veda-logo-main{
+  margin-top:15%;
+}
+
+
 
 /*# sourceMappingURL=style.css.map */
