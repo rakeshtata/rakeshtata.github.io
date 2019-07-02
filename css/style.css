@@ -1226,7 +1226,7 @@ p {
 }
 @media screen and (max-width: 768px) {
   .title-message{
-    margin:25%;
+    margin:10% 0 0 20%;
   }
 }
 
