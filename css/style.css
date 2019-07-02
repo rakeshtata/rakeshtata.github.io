@@ -1219,11 +1219,23 @@ p {
   }
 }
 
+@media screen and (max-width: 992px) {
+  .logo-main{
+    margin-top:10%;
+  }
+}
+
+.logo-h{
+  height:1px;
+}
+
 @media screen and (max-width: 768px) {
   .grid-row{
     height:100%;
   }
 }
+
+
 @media screen and (max-width: 768px) {
   .title-message{
     margin:10% 0 0 20%;
