@@ -1213,6 +1213,24 @@ p {
   margin-left: 40%;
 }
 
+@media screen and (max-width: 768px) {
+  .logo-main{
+    margin-top:20%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .grid-row{
+    height:100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .title-message{
+    margin:25%;
+  }
+}
+
+
 .veda-logo-main{
   margin-top:15%;
 }
