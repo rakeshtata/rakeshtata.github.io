@@ -486,9 +486,9 @@
 .fa-minus:before {
   content: "\f068";
 }
-.fa-asterisk:before {
+/* .fa-asterisk:before {
   content: "\f069";
-}
+} */
 .fa-exclamation-circle:before {
   content: "\f06a";
 }
