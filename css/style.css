@@ -758,6 +758,17 @@ p {
   box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.09);
 }
 
+.boxDiv {
+  display: -webkit-box;
+}
+.personSub1 {
+  width:25%;
+}
+.personSub2 {
+  width:75%;
+  text-align: left;
+}
+
 #fh5co-gallery {
   clear: both;
   float: left;
