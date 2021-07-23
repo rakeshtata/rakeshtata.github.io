@@ -769,6 +769,10 @@ p {
   text-align: left;
   margin-left:25px;
 }
+.main-logo-label {
+  margin-top:130px;
+  font-weight: bold;
+}
 
 #fh5co-gallery {
   clear: both;
@@ -1250,7 +1254,7 @@ p {
 
 @media screen and (max-width: 768px) {
   .title-message{
-    margin:10% 0 0 20%;
+    margin:10% 0 0 10%;
   }
 }
 
