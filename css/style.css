@@ -660,6 +660,10 @@ p {
   margin-left: 60%
 }
 
+.header-side2:hover{
+  margin-left: 20%
+}
+
 .header-side3{
   margin-left: -15%;
   margin-top: 5%
@@ -669,8 +673,16 @@ p {
   margin-left: 60%;
 }
 
+.header-side4:hover{
+  margin-left: 20%;
+}
+
 .header-side5{
   margin-top:10%
+}
+
+.header-hover:hover{
+  font-size: xxx-large;
 }
 
 .checked {
