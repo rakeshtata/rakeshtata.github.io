@@ -348,6 +348,16 @@ p {
 #fh5co-about .fh5co-2col {
   width: 50%;
 }
+
+
+#fh5co-about .fh5co-4col-inner {
+  padding: 5em 0;
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 @media screen and (max-width: 768px) {
   #fh5co-about .fh5co-2col {
     width: 100%;
@@ -599,7 +609,7 @@ p {
   transform: scale(1.2);
 }
 #fh5co-services .service {
-  text-align: center;
+  text-align: left;
   padding-left: 10px;
   padding-right: 10px;
   margin-bottom: 40px;
@@ -636,6 +646,31 @@ p {
   -moz-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.09);
   -ms-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.09);
   box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.09);
+}
+
+.header-sidetext{
+  margin-top: 5%;
+  margin-left: 15%;
+  font-weight: bold;
+  color: darkblue;
+  font-size: x-large;
+}
+
+.header-side2{
+  margin-left: 60%
+}
+
+.header-side3{
+  margin-left: -15%;
+  margin-top: 5%
+}
+
+.header-side4{
+  margin-left: 60%;
+}
+
+.header-side5{
+  margin-top:10%
 }
 
 .checked {
@@ -1223,10 +1258,8 @@ p {
   margin-right: 20px;
 }
 .logo-main{
-  width:100px;
-  height:100px;
-  margin-top:80%;
-  margin-left: 40%;
+  height:550px;
+  margin-left: -5%;
 }
 
 @media screen and (max-width: 768px) {
